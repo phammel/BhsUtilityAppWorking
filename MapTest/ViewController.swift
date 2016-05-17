@@ -362,7 +362,7 @@ class ViewController: UIViewController
         E373.layer.cornerRadius = 10.25
         E373.clipsToBounds = true
         E373.alpha = 0.0
-        view.addSubview(E373)
+        view.addSubview(E373) 
         
         C374 = UIView(frame: CGRectMake( self.view.frame.size.width * C374X, (self.view.frame.size.height - navigationBarHeight) * C374Y, 20, 20 ))
         C374.backgroundColor = UIColor.blueColor()

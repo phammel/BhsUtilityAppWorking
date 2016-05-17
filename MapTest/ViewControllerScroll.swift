@@ -14,7 +14,7 @@ class ViewControllerScroll: UIViewController {
     var test = UIView()
    
     @IBOutlet weak var upper: UIButton!
-    
+     
     @IBOutlet weak var main: UIButton!
     
     @IBOutlet weak var lower: UIButton!

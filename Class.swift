@@ -22,7 +22,7 @@ class Class: NSObject
         self.hour = hour
         self.nameOfClass = nameOfClass
         
-    }
+    } 
     
     
 }

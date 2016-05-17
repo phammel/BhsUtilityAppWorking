@@ -62,6 +62,7 @@ class ScheduleViewController: UIViewController,  UITableViewDataSource, UITableV
         var hours: [String]! = nil
         var classNames: [String]! = nil
         
+        
         if let _ = data.objectForKey("teachers") as? [String]
         {
             teachers = data.objectForKey("teachers") as! [String]
