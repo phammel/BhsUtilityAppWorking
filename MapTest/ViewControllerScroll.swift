@@ -11,6 +11,19 @@ import UIKit
 
 class ViewControllerScroll: UIViewController {
 
+    
+    
+    //UI elements: buttons, labels, text field, tap gesture recognizer, views, image views, alert view
+    
+    //coding concepts: variables, operators, conditionals, arrays, custom classes, loops, functions
+    
+    
+    
+    
+    
+    
+    
+    
     var test = UIView()
    
     @IBOutlet weak var upper: UIButton!
@@ -86,7 +99,7 @@ class ViewControllerScroll: UIViewController {
         let mySearchAlert = UIAlertController(title: "Search Room", message: nil, preferredStyle: .Alert)
         
         mySearchAlert.addTextFieldWithConfigurationHandler { (alertTextfeild) -> Void in
-            alertTextfeild.placeholder = "Room Number" // add place holder text
+            alertTextfeild.placeholder = "Room Number"
         }
         //---
         let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
@@ -98,7 +111,7 @@ class ViewControllerScroll: UIViewController {
             
             
             self.find(SearchRoom.text!)
-            //add function goes here
+            
         
             
             
@@ -265,6 +278,9 @@ class ViewControllerScroll: UIViewController {
         
         
     }
+    
+    
+    //pass data 
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
     {
