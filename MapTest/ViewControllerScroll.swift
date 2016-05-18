@@ -17,6 +17,8 @@ class ViewControllerScroll: UIViewController {
     
     //coding concepts: variables, operators, conditionals, arrays, custom classes, loops, functions
     
+    // old github: https://github.com/phammel/BhsUtilityApp
+    
     
     
     
@@ -280,7 +282,7 @@ class ViewControllerScroll: UIViewController {
     }
     
     
-    //pass data 
+    //pass data
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)
     {
